@@ -1,0 +1,82 @@
+BODY{
+    background-color:blanchedalmond;
+}
+.banner{
+    background-image:url(purple.ellow.jpeg);
+    
+    padding:250PX;
+   background-size: cover;
+   background-repeat: no-repeat;
+    height:500px;
+}
+*{
+    font-family: poppins;
+}.rounded-circle {
+    align-items: center;
+    width: 450px; /* Adjust the size as needed */
+    height: 450px; /* Adjust the size as needed */
+    object-fit: cover; 
+  
+           
+    /* Ensures the image covers the entire area */
+}  .radiant-border {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 25px;
+     /* Adjust as needed for border width */
+    background: conic-gradient(
+        red, yellow, green, cyan, blue, magenta, red
+    );
+}
+
+.radiant-border img {
+    display: block;
+    border-radius: 50%;
+    padding: 5px; /* Adjust as needed for border width */
+    background-color:blanchedalmond; /* This color matches the page background */
+}
+
+.radiant-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(
+        red, yellow, green, cyan, blue, magenta, red
+    );
+    z-index: -1;
+}
+
+    .custom-image {
+       
+        position:absolute;
+        top: 70px;
+        right: 20px;}
+       
+        .custom-ssc {   
+            background-color: #f2f2f2;
+            color: black;
+           
+        }
+        .custom-hsc {
+            background-color:white;
+            color: BLACK;
+            
+        }
+        .custom-ug {
+            background-color:  #f2f2f2;
+            color: BLACK;
+
+        }
+        /* Set the width and height of the carousel container */
+        .carousel-img {
+            height: 40px; /* Set the height you want */
+            object-fit: cover; /* This makes sure the image covers the area while maintaining its aspect ratio */
+        }
+        .custom-top-space {
+            margin-top: -50px; /* Adjust this value as needed */
+        }
